@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+logging:
+  level:
+    com.ritikhedau.sentinel: DEBUG
+    org.springframework.security: DEBUG
+
+# minor tweak: update verification rules and configs
